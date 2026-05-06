@@ -256,3 +256,8 @@ footer {
 .nav-menu a:hover {
     text-decoration: underline;
 }
+
+.header-left img {
+    height: 90px !important;
+    width: auto !important;
+}
