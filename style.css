@@ -235,14 +235,16 @@ footer {
 
 /* BRAND TEXT */
 .brand-text h1 {
-    font-size: 20px;
+    font-size: 26px;   /* bigger main title */
     margin: 0;
+    font-weight: bold;
 }
 
 .brand-text p {
-    font-size: 11px;
+    font-size: 12px;   /* smaller subtitle */
     margin: 0;
     color: #ccc;
+    letter-spacing: 1px;
 }
 
 /* NAVIGATION (RIGHT SIDE) */
@@ -260,4 +262,10 @@ footer {
 .header-left img {
     height: 90px !important;
     width: auto !important;
+}
+
+.brand-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
 }
