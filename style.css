@@ -192,3 +192,48 @@ footer {
     margin: 0;
     color: #ccc;
 }
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: black;
+    color: white;
+}
+
+/* LEFT SIDE (LOGO + TEXT) */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-left img {
+    width: 50px;
+    height: auto;
+}
+
+/* BRAND TEXT */
+.brand-text h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.brand-text p {
+    font-size: 11px;
+    margin: 0;
+    color: #ccc;
+}
+
+/* NAVIGATION (RIGHT SIDE) */
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.nav-menu a:hover {
+    text-decoration: underline;
+}
