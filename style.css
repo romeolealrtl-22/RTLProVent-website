@@ -197,9 +197,10 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 40px;
+    padding: 0 40px;
     background: black;
     color: white;
+    min-height: 85px;
 }
 
 /* LEFT SIDE (LOGO + TEXT) */
@@ -210,8 +211,9 @@ footer {
 }
 
 .header-left img {
-    width: 50px;
-    height: auto;
+    height: 75px;
+    width: auto;
+    object-fit: contain;
 }
 
 /* BRAND TEXT */
