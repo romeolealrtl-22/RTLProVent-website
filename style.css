@@ -169,3 +169,26 @@ footer {
     width: 50px;
     height: auto;
 }
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.logo-container img {
+    width: 55px;
+    height: auto;
+}
+
+.brand-text h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.brand-text p {
+    font-size: 12px;
+    margin: 0;
+    color: #ccc;
+}
