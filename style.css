@@ -348,3 +348,30 @@ footer {
     font-size: 18px;
     letter-spacing: 1px;
 }
+
+.store-hero {
+    background: url('store-banner.png') center center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.store-overlay {
+    background: rgba(0,0,0,0.45);
+    padding: 35px 50px;
+    border-radius: 14px;
+    color: white;
+    backdrop-filter: blur(3px);
+}
+
+.store-overlay h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.store-overlay p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
