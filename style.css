@@ -313,3 +313,38 @@ footer {
     justify-content: center;
     gap: 15px;
 }
+
+.projects-hero {
+    background: url('projects-banner.png') center center/cover no-repeat;
+
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    text-align: center;
+}
+
+.projects-overlay {
+    background: rgba(0,0,0,0.45);
+
+    padding: 35px 50px;
+
+    border-radius: 14px;
+
+    color: white;
+
+    backdrop-filter: blur(3px);
+}
+
+.projects-overlay h2 {
+    font-size: 46px;
+    margin-bottom: 15px;
+}
+
+.projects-overlay p {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
