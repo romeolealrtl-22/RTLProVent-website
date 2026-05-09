@@ -375,3 +375,53 @@ footer {
     font-size: 18px;
     letter-spacing: 1px;
 }
+
+.product-detail {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.detail-cover {
+    width: 320px;
+    border-radius: 14px;
+    margin-bottom: 30px;
+}
+
+.detail-description {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+.feature-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.feature-list li {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.preview-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.preview-gallery img {
+    width: 220px;
+    border-radius: 10px;
+}
+
+.detail-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
