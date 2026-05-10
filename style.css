@@ -669,7 +669,7 @@ body {
     width: 100% !important;
     height: 520px !important;
     max-height: none !important;
-    object-fit: cover !important;
+    object-fit: contain; !important;
     object-position: center !important;
     display: block !important;
     border-radius: 18px !important;
