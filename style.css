@@ -647,13 +647,14 @@ body {
     margin-bottom: 35px !important;
 }
 
-/* FORCE TOP BANNER IMAGE TO BE TALLER */
+/* FINAL HERO IMAGE FIX */
+
 .product-detail-page .product-hero-image {
     width: 100% !important;
-    height: 700px !important;
+    height: auto !important;
     max-height: none !important;
-    object-fit: contain; !important;
-    object-position: center !important;
+    object-fit: contain !important;
     display: block !important;
     border-radius: 18px !important;
+    margin-bottom: 35px !important;
 }
