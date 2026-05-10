@@ -667,7 +667,7 @@ body {
 /* FORCE TOP BANNER IMAGE TO BE TALLER */
 .product-detail-page .product-hero-image {
     width: 100% !important;
-    height: 520px !important;
+    height: 700px !important;
     max-height: none !important;
     object-fit: contain; !important;
     object-position: center !important;
