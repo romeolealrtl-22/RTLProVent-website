@@ -477,11 +477,17 @@ footer {
 }
 
 .preview-gallery img {
-  width: 260px;
-  max-width: 100%;
-  border-radius: 12px;
-  border: 1px solid #ddd;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    width: 420px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: transform 0.3s ease;
+}
+
+.preview-gallery img:hover {
+    transform: scale(1.03);
 }
 
 .buy-button {
@@ -587,4 +593,9 @@ body {
 
 .preview-gallery img:hover {
     transform: scale(1.05);
+}
+
+.preview-gallery img {
+    max-width: 100%;
+    height: auto;
 }
