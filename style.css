@@ -553,3 +553,38 @@ footer {
   height: auto !important;
   border-radius: 12px !important;
 }
+
+body {
+    background: #f3f4f6;
+    font-family: Arial, sans-serif;
+}
+
+.product-detail-page {
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.product-detail-page h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.product-detail-page p,
+.product-detail-page li {
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.product-hero-image {
+    max-height: 420px;
+}
+
+.preview-gallery img {
+    transition: transform 0.3s ease;
+}
+
+.preview-gallery img:hover {
+    transform: scale(1.05);
+}
