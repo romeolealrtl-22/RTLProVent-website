@@ -663,3 +663,14 @@ body {
     border-radius: 18px !important;
     margin-bottom: 35px !important;
 }
+
+/* FORCE TOP BANNER IMAGE TO BE TALLER */
+.product-detail-page .product-hero-image {
+    width: 100% !important;
+    height: 520px !important;
+    max-height: none !important;
+    object-fit: cover !important;
+    object-position: center !important;
+    display: block !important;
+    border-radius: 18px !important;
+}
