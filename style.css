@@ -554,10 +554,12 @@ footer {
 }
 
 .preview-gallery img {
-  width: 260px !important;
+  width: 520px !important;
   max-width: 100% !important;
   height: auto !important;
   border-radius: 12px !important;
+  border: 1px solid #ddd !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12) !important;
 }
 
 body {
@@ -598,4 +600,11 @@ body {
 .preview-gallery img {
     max-width: 100%;
     height: auto;
+}
+
+/* FINAL PREVIEW IMAGE SIZE FIX */
+.product-detail-page .preview-gallery img {
+  width: 520px !important;
+  max-width: 100% !important;
+  height: auto !important;
 }
