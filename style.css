@@ -1,3 +1,42 @@
+.about-page {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 50px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.about-page h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+    color: #111;
+}
+
+.about-page h2 {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.about-page p {
+    font-size: 20px;
+    line-height: 1.9;
+    color: #444;
+    margin-bottom: 22px;
+}
+
+.about-page ul {
+    padding-left: 25px;
+}
+
+.about-page li {
+    font-size: 20px;
+    line-height: 1.9;
+    margin-bottom: 10px;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
