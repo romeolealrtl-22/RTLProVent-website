@@ -803,3 +803,83 @@ body {
 .about-gallery img:hover {
     transform: scale(1.05);
 }
+
+/* ABOUT PAGE FINAL DESIGN */
+
+.about-page {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 50px;
+    background: white;
+    border-radius: 24px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.08);
+}
+
+.about-page h1 {
+    font-size: 52px;
+    margin-bottom: 30px;
+    color: #111;
+    text-align: center;
+}
+
+.about-page h2 {
+    font-size: 34px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.about-page p {
+    font-size: 20px;
+    line-height: 1.9;
+    color: #444;
+    margin-bottom: 24px;
+}
+
+.about-page ul {
+    padding-left: 28px;
+}
+
+.about-page li {
+    font-size: 20px;
+    line-height: 1.9;
+}
+
+.about-banner {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.about-feature-image {
+    width: 100%;
+    border-radius: 20px;
+    margin: 40px 0;
+}
+
+.mission-image {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.about-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 45px 0;
+}
+
+.about-gallery img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+}
+
+.about-gallery img:hover {
+    transform: scale(1.05);
+}
