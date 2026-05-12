@@ -764,3 +764,42 @@ body {
 .about-gallery img:hover {
     transform: scale(1.05);
 }
+
+.about-banner {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.about-feature-image {
+    width: 100%;
+    border-radius: 18px;
+    margin: 40px 0;
+}
+
+.mission-image {
+    width: 100%;
+    border-radius: 18px;
+    margin-top: 40px;
+}
+
+.about-gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.about-gallery img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+    transition: 0.3s ease;
+}
+
+.about-gallery img:hover {
+    transform: scale(1.05);
+}
