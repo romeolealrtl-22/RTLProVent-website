@@ -883,3 +883,19 @@ body {
 .about-gallery img:hover {
     transform: scale(1.05);
 }
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
