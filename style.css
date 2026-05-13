@@ -1007,3 +1007,15 @@ section {
     width: 32px;
     margin-right: 15px;
 }
+
+form {
+    width: 100%;
+    max-width: 500px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
