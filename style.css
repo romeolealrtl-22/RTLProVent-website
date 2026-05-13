@@ -930,3 +930,7 @@ button {
     border-radius: 6px;
     cursor: pointer;
 }
+
+body {
+    background-color: #f5f5f5;
+}
