@@ -998,3 +998,8 @@ h2 {
     margin: auto;
     padding: 30px;
 }
+
+.top-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
