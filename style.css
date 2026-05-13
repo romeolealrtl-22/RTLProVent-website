@@ -1019,3 +1019,12 @@ textarea {
     padding: 12px;
     margin-bottom: 20px;
 }
+
+body {
+    background-color: #111;
+    color: white;
+}
+
+a {
+    color: #4da6ff;
+}
