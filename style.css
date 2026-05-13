@@ -991,3 +991,10 @@ h2 {
 .social-icons img:hover {
     transform: scale(1.15);
 }
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+}
