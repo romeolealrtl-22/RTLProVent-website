@@ -1059,3 +1059,28 @@ footer {
     border-radius: 10px;
     margin-bottom: 30px;
 }
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.store-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+.store-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.store-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
