@@ -1122,3 +1122,27 @@ form {
     flex: 1;
     max-width: 500px;
 }
+
+p {
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+input,
+textarea {
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #222;
+    box-shadow: 0 0 10px #4da6ff;
+}
+
+.social-icon:hover {
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+
+.banner {
+    max-width: 1000px;
+}
