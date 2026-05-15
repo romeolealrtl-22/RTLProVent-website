@@ -1169,3 +1169,14 @@ button:hover {
     letter-spacing: 1px;
     color: white;
 }
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    transition: 0.3s;
+}
+
+.social-icon:hover {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px #4da6ff);
+}
