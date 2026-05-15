@@ -1191,3 +1191,12 @@ button:hover {
     transform: scale(1.15);
     filter: drop-shadow(0 0 8px #4da6ff);
 }
+
+.about-container,
+.about-container p,
+.about-container h2,
+.about-container h3,
+.services,
+.services p {
+    color: #111;
+}
