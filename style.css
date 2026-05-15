@@ -1180,3 +1180,14 @@ button:hover {
     transform: scale(1.15);
     filter: drop-shadow(0 0 8px #4da6ff);
 }
+
+.store-icon {
+    width: 32px;
+    height: 32px;
+    transition: 0.3s;
+}
+
+.store-icon:hover {
+    transform: scale(1.15);
+    filter: drop-shadow(0 0 8px #4da6ff);
+}
