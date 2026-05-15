@@ -1146,3 +1146,20 @@ button:hover {
 .banner {
     max-width: 1000px;
 }
+
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.top-logo {
+    width: 90px;
+    height: auto;
+}
+
+.header-section h1 {
+    margin: 0;
+    font-size: 48px;
+}
