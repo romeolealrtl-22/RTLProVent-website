@@ -1200,3 +1200,19 @@ button:hover {
 .services p {
     color: #111;
 }
+
+.services-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 30px;
+}
+
+.services-list li {
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: #111;
+    padding: 10px 15px;
+    margin: 6px;
+    border-radius: 8px;
+    font-weight: 600;
+}
